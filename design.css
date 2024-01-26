@@ -1,0 +1,171 @@
+/* For Image */
+
+img
+{
+	height: auto; 
+	max-width:  100%;
+}
+
+
+  
+.forlogo
+{
+	height:199px;
+	width:200px;
+	box-shadow: 8px 8px #008B8B;
+	}  
+  
+ 
+
+#for_img1
+{
+border-radius:50px;
+padding:50px;
+
+}
+ 
+
+
+
+
+
+/*
+
+.for_marquee
+{
+	color:#F08080;
+	
+}
+
+*/
+
+
+
+
+
+
+/* For Neviagation */
+
+#navigation
+{
+margin:0 auto;
+width:720px;
+height:58px;
+background:#000;
+border:1px solid #282828;
+}
+
+
+
+#navigation ul
+{
+list-style:none;
+}
+
+
+#navigation ul li
+{
+color:#adadad;
+float:left;
+text-align:center;
+font:bold 14.5px/30px Arial, Helvetica, sans-serif;
+width:150px;
+border-right:4px solid #282828;
+}
+
+
+#navigation ul li a
+{
+text-decoration:none;
+display:block;
+color:#adadad;
+}
+
+
+#navigation ul li a:hover
+{
+color:#FFFFFF;
+}
+
+
+
+
+#navigation ul li.last
+{
+border:none;
+float:left;
+}
+
+
+
+
+
+
+
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.onsearch {
+  width: 100%;
+  border: 3px solid #C0392B;
+  border-right: none;
+  padding: 10px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #C0392B;
+}
+
+.onsearch:focus{
+  color:#C0392B  ;
+  
+/*# 00B47CC    |    |   BORDER #010B4CC */ 
+}
+
+.for_search {
+  width: 40px;
+  height: 46px;
+  border: 1px solid #C0392B;
+  background: #C0392B  ;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  
+  
+  /* For Contact Us */
+  
+.for_contactus
+  {
+	  background-image: url('img/wall3.jpg');
+	  opacity:1;
+	  height: 630px;;
+	  width: 1350px;
+	  font-weight: bold;
+	  text-align: center;
+  }
+  
+  
+
+  @media -webkit-
+-moz  
